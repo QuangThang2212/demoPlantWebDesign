@@ -1,7 +1,7 @@
 * {
   font-family: Inter;
   font-weight: 450;
-  font-size: small;
+  font-size: medium;
   margin: 0;
 }
 :root {
@@ -225,7 +225,7 @@
   border-radius: 30px;
 }
 .markButton:active {
-  background-color: rgb(255, 101, 101);
+  background-color: red;
 }
 .showMoreButton {
   background-color: var(--main-green-color);
