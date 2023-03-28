@@ -9,6 +9,7 @@ window.addEventListener("resize", function () {
   if (width > 1000) {
     filterList.style.display = "block";
     content.style.backgroundColor = "white";
+    document.body.style.overflow = "scroll";
   } else {
     filterList.style.display = "none";
     content.style.backgroundColor = "white";
