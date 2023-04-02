@@ -5,6 +5,12 @@
 .filterOption {
   margin: 5% 0;
 }
+.filter_button {
+  transition: transform 0.2s;
+}
+.filter_button:hover {
+  transform: scale(1.08);
+}
 .rotate180 {
   margin-left: 5%;
 }
@@ -16,6 +22,6 @@
 .filter_content {
   display: none;
 }
-#filter_content_4{
-    margin-bottom: 50%;
+#filter_content_4 {
+  margin-bottom: 60%;
 }
