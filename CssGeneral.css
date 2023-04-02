@@ -64,7 +64,11 @@
 .filter_black {
   color: black !important;
 }
-.linkHover:hover {
+.linkHover a {
+  text-decoration: none;
+  color: black;
+}
+.linkHover a:hover {
   color: var(--main-green-color);
   font-weight: bold;
 }
@@ -193,7 +197,7 @@
   padding: 4.5%;
   border-radius: 15px;
   margin-bottom: 15%;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 .product-detail:hover {
   transform: scale(1.08);
