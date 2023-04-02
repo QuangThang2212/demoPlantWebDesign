@@ -20,20 +20,26 @@ filterAppear.addEventListener("click", (e) => {
   e.preventDefault;
 
   if (filterCheck) {
+    window.scrollTo(0, 0);
     content.style.backgroundColor = "rgba(21, 21, 21, 0.413)";
     filterList.style.display = "block";
-    filter_icon.style.backgroundColor = "var(--main-green-color)";
-    filter_icon.style.color = "white";
+
+    filter_icon.style.cssText = `
+        background-color: var(--main-green-color);
+        color: var(--main-text-color);
+        padding: 6% 9%;
+        border-radius: 30px;`;
 
     document.body.style.overflow = "hidden";
-    filterCheck = false;
   } else {
     content.style.backgroundColor = "white";
     filterList.style.display = "none";
-    filter_icon.style.backgroundColor = "var(--main-text-color)";
-    filter_icon.style.color = "black";
+
+    filter_icon.style.cssText = `
+        background-color: var(--main-text-color);
+        color: black;`;
 
     document.body.style.overflow = "scroll";
-    filterCheck = true;
   }
+  filterCheck = !filterCheck;
 });

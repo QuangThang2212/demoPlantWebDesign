@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CssGeneral.css" />
+    <link rel="stylesheet" href="CssIndex2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  </head>
+  <body id="body">
+    <div id="Header_title">
+      <span class="bold">Free Shipping</span>
+      on orders over <span class="">$50</span>
+    </div>
+    <div class="container">
+      <div id="header">
+        <ul>
+          <li class="textPaci xx_large_title">Flont</li>
+          <li class="linkHover">Deals</li>
+          <li class="linkHover">Plant Shop</li>
+          <li class="linkHover filter_green bold">Plant Care</li>
+          <li class="linkHover">Home and Decor</li>
+          <li class="linkHover">Blog</li>
+          <li class="linkHover">About us</li>
+        </ul>
+        <ul>
+          <li class="linkHover"><i class="bi bi-cart3 sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-search sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-heart sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-person sub-title"></i></li>
+        </ul>
+      </div>
+      <div id="header_phone">
+        <div class="textPaci xx_large_title">Flont</div>
+        <ul class="first_nav">
+          <li class="linkHover">Deals</li>
+          <li class="linkHover">Plant Shop</li>
+          <li class="linkHover filter_green bold">Plant Care</li>
+          <li class="linkHover">Home and Decor</li>
+          <li class="linkHover">Blog</li>
+          <li class="linkHover">About us</li>
+        </ul>
+        <ul class="second_nav">
+          <li class="linkHover"><i class="bi bi-cart3 sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-search sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-heart sub-title"></i></li>
+          <li class="linkHover"><i class="bi bi-person sub-title"></i></li>
+        </ul>
+      </div>
+      <div id="Content">
+        <div id="left-content">
+          <div class="filterOption">
+            <div
+              class="filter-title textPaci justity_center algin_center sub-title addToCart"
+              id="filter_button_1"
+              onclick="{filterAction(0,'filter_button_arrow_1','filter_content_1')}"
+            >
+              Plant Tool<span id="filter_button_arrow_1" class="bi bi-caret-up title rotate180"></span>
+            </div>
+            <div class="filter_content" id="filter_content_1">
+              <div class="sub_addToCart filterButton">Gloves</div>
+              <div class="sub_addToCart filterButton">Pruning Shears & Loppers</div>
+              <div class="sub_addToCart filterButton">Forks & Hand Trowel & Spade</div>
+              <div class="sub_addToCart filterButton">Spray Bottle/Mister</div>
+              <div class="sub_addToCart filterButton">Watering Can</div>
+              <div class="sub_addToCart filterButton">Grow Tent & Grow Lights</div>
+            </div>
+          </div>
+          <div class="filterOption">
+            <div
+              class="filter-title textPaci justity_center algin_center sub-title addToCart"
+              id="filter_button_2"
+              onclick="{filterAction(1,'filter_button_arrow_2','filter_content_2')}"
+            >
+              Mordern Tool<span id="filter_button_arrow_2" class="bi bi-caret-up title rotate180"></span>
+            </div>
+            <div class="filter_content" id="filter_content_2">
+              <div class="sub_addToCart filterButton">Label Marker</div>
+              <div class="sub_addToCart filterButton">Wi-fi Plant Sensor</div>
+              <div class="sub_addToCart filterButton">Dehumidifier & Humidity Tray</div>
+              <div class="sub_addToCart filterButton">Heat Mats & Soil Test Kit</div>
+              <div class="sub_addToCart filterButton">Moisture Sensor Meter</div>
+              <div class="sub_addToCart filterButton">Oscillating Fan</div>
+              <div class="sub_addToCart filterButton">Water Test Kit</div>
+            </div>
+          </div>
+          <div class="filterOption">
+            <div
+              class="filter-title textPaci justity_center algin_center sub-title addToCart"
+              id="filter_button_3"
+              onclick="{filterAction(2,'filter_button_arrow_3','filter_content_3')}"
+            >
+              Functional Products<span id="filter_button_arrow_3" class="bi bi-caret-up title rotate180"></span>
+            </div>
+            <div class="filter_content" id="filter_content_3">
+              <div class="sub_addToCart filterButton">Fertilizers & water-solubale</div>
+              <div class="sub_addToCart filterButton">Neem Oil & Potting Soil</div>
+              <div class="sub_addToCart filterButton">Cottion Swabs & Rubbing Alcohol</div>
+            </div>
+          </div>
+          <div class="filterOption">
+            <div
+              class="filter-title textPaci justity_center algin_center sub-title addToCart"
+              id="filter_button_4"
+              onclick="{filterAction(3,'filter_button_arrow_4','filter_content_4')}"
+            >
+              Filter<span id="filter_button_arrow_4" class="bi bi-caret-up title rotate180"></span>
+            </div>
+            <div class="filter_content" id="filter_content_4">
+              <div class="filter">
+                <div class="filter-title textPaci title">Color</div>
+                <div class="filter-form">
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_15" />
+                    <label for="filter_15">Green</label>
+                    <span>(532)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_16" />
+                    <label for="filter_16">Blue</label>
+                    <span>(23)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_17" />
+                    <label for="filter_17">Purple</label>
+                    <span>(13)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_18" />
+                    <label for="filter_18">Red</label>
+                    <span>(12)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_19" />
+                    <label for="filter_19">Yellow</label>
+                    <span>(35)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_20" />
+                    <label for="filter_20">Orange</label>
+                    <span>(48)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_21" />
+                    <label for="filter_21">Pink</label>
+                    <span>(12)</span>
+                  </div>
+                  <div class="filter-form-input">
+                    <input type="checkbox" id="filter_22" />
+                    <label for="filter_22">White</label>
+                    <span>(422)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter-title textPaci title">Filter of price</div>
+                <div class="filter-form">
+                  <input type="range" class="inputRange" min="3" max="300" step="1" />
+                  <div>
+                    <label for="inputRange">Price: $3 - $300</label><button class="inputRange_button">Filter</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right-content">
+          <div class="right-content_header filter_white">
+            <div class="sub-title">Want more?</div>
+            <div class="xx_large_title bold">Plant Care</div>
+            <div class="sm-title">
+              Home
+              <span class="sm-title"> | Plant Care</span>
+            </div>
+          </div>
+          <div class="right-content_filter">
+            <div class="Search">
+              <input type="text" id="right-content_filter_search" placeholder="Search Plant Care" />
+              <span class="algin_center">
+                <i class="bi bi-filter icon_default_hover title" id="filter_icon"></i>
+                <i class="bi bi-grid-3x3-gap icon_default_hover title"></i>
+                <i class="bi bi-list-ul icon_default_hover title"></i>
+              </span>
+            </div>
+            <div class="Sort">
+              <div class="sort_input">
+                <span class="filter_gray weight-600-title">Sort by</span>
+                <select id="select " class="filter_gray weight-600-title">
+                  <option>Best selling</option>
+                  <option>Price</option>
+                  <option>Newest</option>
+                </select>
+              </div>
+              <span class="filter_gray sort_result weight-600-title">Showing 1-15 of 794 results</span>
+            </div>
+          </div>
+          <div class="product-list">
+            <div class="product-detail">
+              <img src="product_plan_care_list/product1.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Radish gloves</div>
+                  <div>White - Red</div>
+                </div>
+                <div class="bold sub-title">$10.10</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product2.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Pruning Shears</div>
+                  <div>Spike</div>
+                </div>
+                <div class="bold sub-title">$17.52</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product3.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Spray Bottle</div>
+                  <div>Glass</div>
+                </div>
+                <div class="bold sub-title">$12.16</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product4.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Teapot Can</div>
+                  <div>Black</div>
+                </div>
+                <div class="bold sub-title">$35.20</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product5.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Humidity Tray</div>
+                  <div>White</div>
+                </div>
+                <div class="bold sub-title">$29.32</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product6.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Watering Can</div>
+                  <div>Rose Gold</div>
+                </div>
+                <div class="bold sub-title">$37.72</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product7.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Fork</div>
+                  <div>Inox</div>
+                </div>
+                <div class="bold sub-title">$19.80</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product8.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Glass Can</div>
+                  <div>Yellow</div>
+                </div>
+                <div class="bold sub-title">$25.52</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_list/product_9.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Bee gloves</div>
+                  <div>White - Yellow</div>
+                </div>
+                <div class="bold sub-title">$15.90</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product10.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Grow Light</div>
+                  <div>Plastic</div>
+                </div>
+                <div class="bold sub-title">$23.01</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product11.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Pruning Shears</div>
+                  <div>Orange</div>
+                </div>
+                <div class="bold sub-title">$11.22</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product12.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Spray Bottle</div>
+                  <div>Plastic</div>
+                </div>
+                <div class="bold sub-title">$21.52</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title medium-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product13.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Spray Bottle</div>
+                  <div>Mirror</div>
+                </div>
+                <div class="bold sub-title">$12.10</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title medium-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product14.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Trowel</div>
+                  <div>Brown</div>
+                </div>
+                <div class="bold sub-title">$10.32</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title medium-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+            <div class="product-detail">
+              <img src="product_plan_care_list/product15.png" />
+              <div class="product-infor">
+                <div class="product-des">
+                  <div class="bold sub-title">Rubbing Alcohol</div>
+                  <div>Transparent</div>
+                </div>
+                <div class="bold sub-title">$17.82</div>
+              </div>
+              <div class="product-action">
+                <button class="addToCart weight-600-title medium-title">Add to Cart</button>
+                <button class="markButton"><i class="bi bi-heart sub-title"></i></button>
+              </div>
+            </div>
+          </div>
+          <button class="showMoreButton medium-title bold margin_auto">Show more</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="left-footer">
+          <img src="titleImage/product_footer.png" />
+        </div>
+        <div class="right-footer">
+          <div class="bold title margin_1_b">Subscribe for all offers and updates</div>
+          <div class="medium-title filter_gray margin_1_b">Subscribe to our newsletter to get more information</div>
+          <div class="enterEmailForm">
+            <input type="text" class="medium-title" placeholder="Enter email address here" />
+            <button class="medium-title">Submit now</button>
+          </div>
+          <div class="optionFooterList">
+            <div class="option">
+              <div>Plant Shop</div>
+              <div>Plant Care</div>
+              <div>Home and Decor</div>
+              <div>Deals</div>
+            </div>
+            <div class="option">
+              <div>About us</div>
+              <div>Blog</div>
+              <div>FAQ</div>
+            </div>
+            <div class="option">
+              <div class="contact">
+                <p class="filter_black bold">Call us</p>
+                <p>(011) 1411 - 2003</p>
+              </div>
+              <div class="contact">
+                <p class="filter_black bold">Email us</p>
+                <p>flontshopforplant@gmail.com</p>
+              </div>
+              <div class="contact">
+                <p class="filter_black bold">Address</p>
+                <p>East 38th Street, USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer_title">
+        Copyright © 2023 Flont Plant Shop.<br />
+        Powered by Shopify
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+</html>
