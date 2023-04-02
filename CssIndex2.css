@@ -3,7 +3,7 @@
   background-size: 100% 100%;
 }
 .filterOption {
-  margin: 8% 0;
+  margin: 5% 0;
 }
 .rotate180 {
   margin-left: 5%;
@@ -15,4 +15,7 @@
 }
 .filter_content {
   display: none;
+}
+#filter_content_4{
+    margin-bottom: 50%;
 }

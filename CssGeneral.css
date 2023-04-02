@@ -160,7 +160,7 @@
   display: none;
 }
 #right-content_filter_search {
-  background: url(search.svg) no-repeat scroll 5% 50%;
+  background: url(titleImage/search.svg) no-repeat scroll 5% 50%;
   padding: 1% 0;
   display: flex;
   align-items: center;
@@ -381,7 +381,8 @@
     scroll-behavior: smooth;
     overflow: scroll;
     height: 100%;
-    padding: 0% 3% 3% 1%;
+    padding: 0% 3% 5% 1%;
+    margin-bottom: 5%;
   }
   #filter_icon {
     display: block;
@@ -393,7 +394,7 @@
     width: 80%;
   }
   #right-content_filter_search {
-    background: url(search.svg) no-repeat scroll 5% 50%;
+    background: url(titleImage/search.svg) no-repeat scroll 5% 50%;
     padding: 2% 0;
     display: flex;
     align-items: center;
@@ -512,7 +513,8 @@
     scroll-behavior: smooth;
     overflow: scroll;
     height: 100%;
-    padding: 0% 3% 3% 1%;
+    padding: 0% 3% 5% 1%;
+    margin-bottom: 5%;
   }
   #filter_icon {
     display: block;
@@ -524,7 +526,7 @@
     width: 80%;
   }
   #right-content_filter_search {
-    background: url(search.svg) no-repeat scroll 5% 50%;
+    background: url(titleImage/search.svg) no-repeat scroll 5% 50%;
     padding: 2% 0;
     display: flex;
     align-items: center;
