@@ -1,0 +1,132 @@
+#header,
+#header a,
+#header_phone,
+#header_phone a {
+  color: white;
+}
+.carousel {
+  --current-slide: 0;
+  position: relative;
+  overflow: hidden;
+  height: 75vh;
+}
+#header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: 0 5%;
+  z-index: 1000;
+}
+#header_phone {
+  margin: 0 5%;
+}
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  transition: color 0.1s;
+
+  background-color: rgba(221, 221, 221, 0.5);
+  padding: 0.8%;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.carousel-button:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators {
+  width: 15%;
+  display: flex;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  bottom: 1;
+  position: absolute;
+}
+.carousel-indicators li {
+  list-style: none;
+  width: 30%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.465);
+}
+.carousel-button_next {
+  right: 0;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  height: 72vh;
+  justify-content: center;
+}
+.slide img {
+  filter: brightness(65%);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1000;
+}
+.carousel-caption {
+  color: white;
+}
+.shopNowbutton {
+  margin-top: 3%;
+  background-color: var(--main-green-color);
+  padding: 2% 4%;
+  color: var(--main-text-color);
+  border-radius: 30px;
+  border: none;
+}
+.shopNowbutton:active {
+  background-color: var(--main-gray-color);
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel {
+    --current-slide: 0;
+    position: relative;
+    overflow: hidden;
+    height: 45vh;
+  }
+  .slide {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    height: 43vh;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carousel {
+    --current-slide: 0;
+    position: relative;
+    overflow: hidden;
+    height: 25vh;
+  }
+  .slide {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    height: 24vh;
+    justify-content: center;
+  }
+}

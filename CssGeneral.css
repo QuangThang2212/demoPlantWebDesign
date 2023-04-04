@@ -21,6 +21,9 @@
 .textPaci {
   font-family: Pacifico;
 }
+.xxx_large_title {
+  font-size: 4rem;
+}
 .xx_large_title {
   font-size: 3rem;
 }
@@ -73,7 +76,8 @@
   font-weight: bold;
 }
 .container {
-  margin: 0 5%;
+  padding: 0 5%;
+  position: relative;
 }
 #Header_title {
   width: 100%;
@@ -88,8 +92,8 @@
   text-align: center;
 }
 #header {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;
 }
 #header_phone {
   display: none;
@@ -338,6 +342,9 @@
     margin: 0;
     font-size: small;
   }
+  .xxx_large_title {
+    font-size: 3rem;
+  }
   .xx_large_title {
     font-size: 2rem;
   }
@@ -351,10 +358,14 @@
     font-size: small;
   }
   #header {
-    display: none;
+    display: none !important;
   }
   #header_phone {
     display: block;
+    color: black !important;
+  }
+  #header_phone a {
+    color: black !important;
   }
   #header_phone div {
     display: flex;
@@ -465,6 +476,9 @@
     margin: 0;
     font-size: 10px;
   }
+  .xxx_large_title {
+    font-size: 3rem;
+  }
   .xx_large_title {
     font-size: 2rem;
   }
@@ -478,11 +492,15 @@
     font-size: small;
   }
   #header {
-    display: none;
+    display: none !important;
     background-color: var(--main-text-color);
   }
   #header_phone {
     display: block;
+    color: black !important;
+  }
+  #header_phone a {
+    color: black !important;
   }
   #header_phone div {
     display: flex;
